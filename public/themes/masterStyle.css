@@ -1,0 +1,154 @@
+body {
+   /* background: url('images/Background.jpg') no-repeat center center fixed; */
+    background-color: #FCFBF8;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;">
+
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    border: none;
+    height: 1px;
+
+    /* Set the hr color */
+    color: black ;  /* old IE */
+    background-color: black ; /* Modern Browsers */
+    opacity: 100%;
+}
+
+
+.navbar
+{
+    font-family: "Caviar Dreams";
+    font-size: 20px;
+
+}
+
+#myBtn {
+
+    background-color: transparent;
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    font-size: 40px; /* Increase font size */
+}
+
+#myBtn a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media (min-width: 1300px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-brand.abs {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+
+    }
+
+
+    .logo
+    {
+        margin-top: -40px;
+    }
+
+    .rowHeight
+    {
+        height: 180px;
+        align-items: flex-end;
+    }
+
+    .linkMargin
+    {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.navbar-toggler,
+.navbar-toggler:focus
+ {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler hr
+{
+    height: 1.2px;
+}
+
+#navbarText
+{
+    float: left;
+    alignment: left;
+    align-items: flex-end;
+
+}
+
+@media (min-width: 1400px)
+{
+    .mylogo
+    {
+        width: 250px !important;
+
+    }
+}
+
+
+.mylogo
+{
+    width: 250px;
+}

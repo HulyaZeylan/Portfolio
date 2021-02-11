@@ -1,0 +1,73 @@
+.card
+{
+
+    border: none;
+    background: none;
+    opacity: 100%;
+}
+
+.img-fluid
+{
+    border-radius: 0px;
+    max-width: 100%;
+}
+
+.card-footer
+{
+    background: none;
+}
+
+.card-title
+{
+    font-family: "Caviar Dreams";
+    font-weight: bold;
+    font-size: 18px;
+}
+.card-text
+{
+    font-family: "Caviar Dreams";
+    font-size: 18px;
+}
+
+.topCardImg
+{
+    padding: 20px;
+    border: black solid 1px;
+    border-radius: 0px;
+}
+
+.bottomCardImg
+{
+    padding: 20px;
+    border: black solid 1px;
+    border-radius: 0px;
+}
+
+@media (min-width: 550px)
+{
+    .topCardImg
+    {
+       border: black solid 1px;
+       border-top: none;
+       border-bottom: none;
+       border-radius: 0px;
+    }
+
+    .bottomCardImg {
+        border: black solid 1px;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 0px;
+    }
+
+}
+
+
+.btn-primary
+{
+    border: black solid 1px;
+    border-radius: 0px;
+    background: none;
+    color: black;
+}
+}
