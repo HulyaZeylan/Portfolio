@@ -5,8 +5,8 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-xl-2"></div>
-            <div class="col-xl-8 card-group">
+            <div class="col-xl-1"></div>
+            <div class="col-xl-10 card-group">
                 @foreach($projects as $project)
 
                         <div class="card bottomCardImg">
@@ -25,7 +25,7 @@
 
 
             </div>
-            <div class="col-xl-2"></div>
+            <div class="col-xl-1"></div>
 
         </div>
         </div>

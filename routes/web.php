@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\front\CategoryController;
@@ -19,4 +20,7 @@ use App\Http\Controllers\front\PortfolioController;
 Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
 Route::get('/portfolio/{slug}', [CategoryController::class, 'index'])->name('projectCategory');
 
+Route::match(['post', 'get'], '/contact-me', [AuthController::class, 'contactMe'])->name('contactMe');
 
+
+//  Route::view('/register', 'front.contact')->name('register');

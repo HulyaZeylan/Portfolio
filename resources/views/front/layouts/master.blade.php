@@ -23,11 +23,11 @@
 
 
             <div class="row">
-                <div class="col-xl-2">
+                <div class="col-xl-1">
 
                 </div>
                 @yield('content')
-                <div class="col-xl-2"></div>
+                <div class="col-xl-1"></div>
 
             </div>
 

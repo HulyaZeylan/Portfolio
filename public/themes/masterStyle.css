@@ -20,12 +20,10 @@ hr {
     opacity: 100%;
 }
 
-
 .navbar
 {
     font-family: "Caviar Dreams";
     font-size: 20px;
-
 }
 
 #myBtn {
@@ -46,11 +44,12 @@ hr {
 
 
 
-@media (min-width: 1300px){
+@media (min-width: 850px){
+
     .navbar-expand-custom {
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: flex-start;
+        justify-content: center;
     }
     .navbar-expand-custom .navbar-nav {
         flex-direction: row;
@@ -71,18 +70,16 @@ hr {
         width: 100%;
         left: 0;
         text-align: center;
-
     }
-
 
     .logo
     {
-        margin-top: -40px;
+        margin-top: -60px !important;
     }
 
     .rowHeight
     {
-        height: 180px;
+        height: 125px;
         align-items: flex-end;
     }
 
@@ -90,6 +87,18 @@ hr {
     {
         margin-left: 35px;
         margin-right: 35px;
+    }
+
+    .mylogo
+    {
+        width: 250px !important;
+    }
+
+    .abs {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: right;
     }
 }
 
@@ -117,6 +126,7 @@ hr {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
+
 .navbar-toggler,
 .navbar-toggler:focus
  {
@@ -138,17 +148,19 @@ hr {
 
 }
 
-@media (min-width: 1400px)
-{
-    .mylogo
-    {
-        width: 250px !important;
-
-    }
-}
-
-
 .mylogo
 {
-    width: 250px;
+    width: 150px ;
+}
+
+.abs {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.logo
+{
+    margin-top: -15px;
 }

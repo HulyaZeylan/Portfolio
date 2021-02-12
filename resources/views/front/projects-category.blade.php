@@ -4,8 +4,8 @@
 
 
         <div class="row" style="height:80px ">
-            <div class="col-xl-2"></div>
-            <div class="col-xl-8 my-auto">
+            <div class="col-xl-1"></div>
+            <div class="col-xl-10 my-auto">
                 <hr style="width: 90%; margin: auto">
             </div>
         </div>
@@ -38,7 +38,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-1"></div>
 
         </div>
         <br/>

@@ -5,8 +5,8 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-xl-2"></div>
-            <div class="col-xl-8 card-group">
+            <div class="col-xl-1"></div>
+            <div class="col-xl-10 card-group">
                     @foreach($categories as $category)
                     @if($category->parent_id === NULL)
                             <div class="card bottomCardImg">
@@ -16,7 +16,7 @@
                                     <div>
                                         <h5 class="card-title mt-3"> {{$category->category_title}}</h5>
                                         <h5 class=" mt-3"> {{$category->category_description}}</h5>
-                                    </div><a href="" class="btn btn-primary mt-5">----></a>
+                                    </div><a href="{{route('portfolio',$category->slug)}}" class="btn btn-primary mt-5">----></a>
                                 </div>
                             </div>
                     @endif
@@ -24,7 +24,7 @@
 
 
             </div>
-            <div class="col-xl-2"></div>
+            <div class="col-xl-1"></div>
 
         </div>
 
